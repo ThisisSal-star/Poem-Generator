@@ -1,4 +1,30 @@
 body{
     background-color:rgb(192, 192, 241);
-    text-align: centerS;
+    
+}
+
+.container{
+    margin: 100px auto;
+    max-width: 600px;
+}
+h1{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.5;    
+}
+
+header{
+    margin-bottom: 30px;
+}
+
+form{
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 16px;
+    display: flex;
+}
+.prompt{
+    padding: 16px;
+    border: 1px solid black;
 }
