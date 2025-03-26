@@ -10,4 +10,4 @@ function generatePoem(event){
 }
 
 let poemElement = document.querySelector("#poemform-generator");
-poemElement.addEventListener("click" , generatePoem)
+poemElement.addEventListener("submit" , generatePoem)
