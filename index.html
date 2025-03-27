@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css">
     <title>AI Poem Generator</title>
 </head>
@@ -14,11 +15,10 @@
 
     <Main>
         <form id="poemform-generator">
-            <input type="text" placeholder="Enter the topic of a poem" class="prompt" required/>
+            <input type="text" placeholder="Enter the topic of a poem" class="prompt" id="prompt" required/>
             <input type="submit" class="submit"/>
         </form>
         <div class="poem" id="poem">
-            Hold fast to dreams 
         </div>
     </Main>
     <footer>
